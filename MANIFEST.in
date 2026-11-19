@@ -1,0 +1,4 @@
+include LICENSE NOTICE COMMERCIAL-LICENSING.md README.md README_JA.md CHANGELOG.md
+recursive-include docs *.md
+recursive-include examples *.py *.json
+recursive-include tests *.py

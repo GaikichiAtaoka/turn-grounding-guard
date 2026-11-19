@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turn-grounding-guard-local"
+version = "0.1.0"
+description = "Bounded Japanese temporal and turn consistency checks with verified reply delivery"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "PolyForm-Noncommercial-1.0.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Turn Grounding Guard contributors"}]
+keywords = ["local-ai", "grounding", "dialogue", "temporal", "receipts"]
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+turn-grounding-guard = "turn_grounding_guard.cli:main"
+
+[project.urls]
+Repository = "https://github.com/GaikichiAtaoka/turn-grounding-guard"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+turn_grounding_guard = ["py.typed"]

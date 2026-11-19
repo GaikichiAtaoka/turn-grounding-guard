@@ -1,0 +1,11 @@
+{
+  "turn_id": "demo-current",
+  "reference": "2026-01-15T07:45:00+09:00",
+  "user_message": "うん、またあとでね。",
+  "recent_dialogue": [
+    {"role": "user", "time": "2026-01-15T07:10:00+09:00", "content": "おはよう、仕事してくるね。", "message_id": "demo-user-1"},
+    {"role": "assistant", "time": "2026-01-15T07:10:04+09:00", "content": "行ってらっしゃい。気をつけてね。", "message_id": "demo-assistant-1"}
+  ],
+  "reply": "またあとで。おやすみなさい。",
+  "receipts": []
+}
